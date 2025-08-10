@@ -78,4 +78,4 @@ def main():
         conversation_history.append(f"User: {query}\nGemini: {gemini_response}\n")
 
 if __name__ == "__main__":
-    main()
+    main()  
