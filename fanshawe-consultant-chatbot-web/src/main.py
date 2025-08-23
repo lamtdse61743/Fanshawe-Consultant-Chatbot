@@ -19,7 +19,7 @@ vector_db = VectorDatabase()
 vector_db.build_or_load(qa_json_path)
 
 # Get Gemini API key from environment variable or config
-api_key = "AIzaSyCsxy-8Wa3_jlNBA8rqPJsbBsO9CHAJl7M"
+api_key = ""
 if not api_key:
     raise ValueError("Gemini API key not found. Set GEMINI_API_KEY environment variable.")
 
